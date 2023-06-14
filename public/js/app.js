@@ -2084,26 +2084,7 @@ __webpack_require__.r(__webpack_exports__);
 var render = function render() {
   var _vm = this,
     _c = _vm._self._c;
-  return _c("main", [_c("nav", {
-    staticClass: "navbar navbar-expand-lg navbar-dark bg-primary"
-  }, [_c("div", {
-    staticClass: "container-fluid"
-  }, [_c("div", {
-    staticClass: "collapse navbar-collapse",
-    attrs: {
-      id: "navbarSupportedContent"
-    }
-  }, [_c("ul", {
-    staticClass: "navbar-nav me-auto mb-2 mb-lg-0"
-  }, [_c("li", {
-    staticClass: "nav-item"
-  }, [_c("router-link", {
-    staticClass: "nav-link",
-    attrs: {
-      "exact-active-class": "active",
-      to: "/"
-    }
-  }, [_vm._v("Home")])], 1)])])])]), _vm._v(" "), _c("div", {
+  return _c("main", [_c("div", {
     staticClass: "container mt-5"
   }, [_c("router-view")], 1)]);
 };

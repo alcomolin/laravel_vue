@@ -19,17 +19,13 @@
                                         </div>
                                     </div>
                                     <div class="col-12 mb-2">
-                                        <div class="form-floating">
-                                            <textarea
+                                        <div class="form-group">
+                                            <label>Description</label>
+                                            <input
+                                                type="text"
                                                 class="form-control"
-                                                id="descriptionProduct"
                                                 v-model="product.description"
-                                                rows="5"
-                                                maxlength="150"
-                                            ></textarea>
-                                            <label for="descriptionProduct"
-                                                >Description</label
-                                            >
+                                            />
                                         </div>
                                     </div>
                                     <div class="col-12 mb-2">

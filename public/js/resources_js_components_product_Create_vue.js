@@ -113,8 +113,8 @@ var render = function render() {
   })])]), _vm._v(" "), _c("div", {
     staticClass: "col-12 mb-2"
   }, [_c("div", {
-    staticClass: "form-floating"
-  }, [_c("textarea", {
+    staticClass: "form-group"
+  }, [_c("label", [_vm._v("Description")]), _vm._v(" "), _c("input", {
     directives: [{
       name: "model",
       rawName: "v-model",
@@ -123,9 +123,7 @@ var render = function render() {
     }],
     staticClass: "form-control",
     attrs: {
-      id: "descriptionProduct",
-      rows: "5",
-      maxlength: "150"
+      type: "text"
     },
     domProps: {
       value: _vm.product.description
@@ -136,11 +134,7 @@ var render = function render() {
         _vm.$set(_vm.product, "description", $event.target.value);
       }
     }
-  }), _vm._v(" "), _c("label", {
-    attrs: {
-      "for": "descriptionProduct"
-    }
-  }, [_vm._v("Description")])])]), _vm._v(" "), _c("div", {
+  })])]), _vm._v(" "), _c("div", {
     staticClass: "col-12 mb-2"
   }, [_c("div", {
     staticClass: "form-group"
