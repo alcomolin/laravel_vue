@@ -71,7 +71,8 @@ Para desplegar este proyecto, ejecute
 ```bash
   php artisan serve
 ```
-
+* Ingresar a la aplicacion:
+  #### [Crud Laravel y VueJs](http://127.0.0.1:8000/)
 
 ## Authors
 
